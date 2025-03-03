@@ -23,5 +23,6 @@ urlpatterns = [
     # path('' , include('home.urls')),
     path('' , home , name = "home"),
     path('api/get-quiz/' ,get_quiz , name = "get_quiz"),
+    path('quiz/' , quiz , name="quiz"),
     path("admin/", admin.site.urls),
 ]
